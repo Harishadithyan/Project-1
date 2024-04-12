@@ -5,6 +5,7 @@ JOBS = [
         'id':'1',
         'title':'Fundamental Maths',
         'Duration': '1 month'
+         
     },
     {
         'id':'2',
