@@ -3,27 +3,23 @@ app=Flask(__name__)
 JOBS = [
     {
         'id':'1',
-        'title':'class 9',
-        'Duration':' 1 Year course',
-        'Fees': '1000 per month '
+        'title':'Fundamental Maths',
+        'Duration': '1 month'
     },
     {
         'id':'2',
-        'title':'class 10',
-        'Duration':' 1 Year course',
-        'Fees': '2000 per month '
+        'title':'Tamil reading',
+        'Duration': '1 month'
     },
     {
         'id':'3',
-        'title':'class 11',
-        'Duration':' 1 Year course',
-        'Fees': '3000 per month '
+        'title':'Tamil writing',
+        'Duration': '1 month'
     },
     {
         'id':'4',
-        'title':'class 12',
-        'Duration':' 1 Year course',
-        'Fees': '4000 per month'
+        'title':'Hindi reading and writing',
+        'Duration': '1 month'
     }
 ]
 @app.route('/')
